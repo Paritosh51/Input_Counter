@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #4c4b9a;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    flex-direction: column;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 30px;
+}
+.disclaimer{
+    font-size: 1.5rem;
+    margin-top: 80px;
+    background-color: rgb(237, 213, 213);
+    opacity: 0.4;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
+}
+p{
+    font-size: 1.5rem;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+input{
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(219, 192, 192);
+    width: 35vw;
+    background-color: antiquewhite;
+}
+h1{
+    background-color: antiquewhite;
+}
